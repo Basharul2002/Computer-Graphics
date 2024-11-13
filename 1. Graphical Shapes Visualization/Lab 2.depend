@@ -1,22 +1,7 @@
 # depslib dependency file v1.0
-1584205426 source:d:\university\semester-7\mid\computer graphics\lab\test\main.cpp
-	<GLUT/glut.h>
-	<GL/glut.h>
-	<stdlib.h>
-
-1729269859 e:\software me\codeblocks\20.03\appdata\mingw\x86_64-w64-mingw32\include\gl\glut.h
-	"freeglut_std.h"
-
-1729269859 e:\software me\codeblocks\20.03\appdata\mingw\x86_64-w64-mingw32\include\gl\freeglut_std.h
+1731508299 source:d:\university\semester-7\mid\computer graphics\lab\lab 2\lab 2\main.cpp
 	<windows.h>
-	<EGL/egl.h>
-	<GLES/gl.h>
-	<GLES2/gl2.h>
-	<OpenGL/gl.h>
-	<OpenGL/glu.h>
-	<GL/gl.h>
-	<GL/glu.h>
-	<stdlib.h>
+	<GL/glut.h>
 
 1526093414 e:\software me\codeblocks\20.03\appdata\mingw\x86_64-w64-mingw32\include\windows.h
 	<_mingw.h>
@@ -866,6 +851,20 @@
 
 1526093414 e:\software me\codeblocks\20.03\appdata\mingw\x86_64-w64-mingw32\include\imm.h
 	<_mingw_unicode.h>
+
+1729269859 e:\software me\codeblocks\20.03\appdata\mingw\x86_64-w64-mingw32\include\gl\glut.h
+	"freeglut_std.h"
+
+1729269859 e:\software me\codeblocks\20.03\appdata\mingw\x86_64-w64-mingw32\include\gl\freeglut_std.h
+	<windows.h>
+	<EGL/egl.h>
+	<GLES/gl.h>
+	<GLES2/gl2.h>
+	<OpenGL/gl.h>
+	<OpenGL/glu.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	<stdlib.h>
 
 1526093414 e:\software me\codeblocks\20.03\appdata\mingw\x86_64-w64-mingw32\include\gl\gl.h
 	<windows.h>
