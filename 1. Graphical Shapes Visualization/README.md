@@ -53,9 +53,11 @@ The rendered output showcases the following features:
 
 ---
 
-## 🚀 Future Enhancements
 
-- Add more complex shapes like circles, polygons, and stars.
-- Introduce animations for dynamic shape transitions.
-- Enable user interaction to toggle shapes or change colors.
+## Author
+- **Basharul - Alam - Mazu**   
+  GitHub: [basharulalammazu](https://github.com/basharulalammazu)
+
+## License
+This project is licensed under the MIT License - see the [LICENSE](/LICENSE) file for details.
 
