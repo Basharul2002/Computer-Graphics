@@ -7,9 +7,8 @@ void renderBitmapString(float x, float y, float z, void *font, char *string) {
     char *c;
     glRasterPos3f(x, y,z);
     for (c=string; *c != '\0'; c++)
-    {
         glutBitmapCharacter(font, *c);
-    }
+
 }
 
 void display() {
@@ -82,22 +81,27 @@ void display() {
         glVertex2f(-0.7f, 0.25f);  // Top Left
     glEnd();
 
-    // White Five-Pointed Star (Centered)
-    glBegin(GL_POLYGON);
-        glColor3f(1.0f, 1.0f, 1.0f); // White color
+// White Five-Pointed Star (Centered)
+glBegin(GL_POLYGON);
+    glColor3f(1.0f, 1.0f, 1.0f); // White color
 
-        // Coordinates of the Star
-        glVertex2f(-0.45f, 0.6f);  // Top Point
-        glVertex2f(-0.47f, 0.54f); // Bottom Left
-        glVertex2f(-0.51f, 0.54f); // Inner Left
-        glVertex2f(-0.48f, 0.5f);  // Left Mid
-        glVertex2f(-0.50f, 0.45f); // Bottom Point
-        glVertex2f(-0.45f, 0.48f); // Inner Bottom
-        glVertex2f(-0.40f, 0.45f); // Bottom Right
-        glVertex2f(-0.42f, 0.5f);  // Right Mid
-        glVertex2f(-0.39f, 0.54f); // Inner Right
-        glVertex2f(-0.43f, 0.54f); // Top Right
-    glEnd();
+        glVertex2f(-0.47f, 0.46f);
+        glVertex2f(-0.53f, 0.53f);
+
+        glVertex2f(-0.47f, 0.53f);
+        glVertex2f(-0.445f, 0.65f);
+        glVertex2f(-0.42f, 0.53f);
+
+        glVertex2f(-0.36f, 0.53f);
+        glVertex2f(-0.42f, 0.46f);
+        glVertex2f(-0.385f, 0.35f);
+
+        glVertex2f(-0.445f, 0.41f);
+        glVertex2f(-0.51f, 0.35f);  // 1
+    // Corrected Coordinates of the Star
+
+glEnd();
+
 
 
 
@@ -135,16 +139,15 @@ void display() {
     // Horizontal Bar of the Cross
     glBegin(GL_POLYGON);
         glColor3f(1.0f, 0.0f, 0.0f); // Red color
-        glVertex2f(-0.65f, -0.34f);  // Top Left
-        glVertex2f(-0.55f, -0.34f);  // Top Right
-        glVertex2f(-0.55f, -0.36f);  // Bottom Right
-        glVertex2f(-0.65f, -0.36f);  // Bottom Left
+        glVertex2f(-0.65f, -0.335f);  // Top Left
+        glVertex2f(-0.55f, -0.335f);  // Top Right
+        glVertex2f(-0.55f, -0.355f);  // Bottom Right
+        glVertex2f(-0.65f, -0.355f);  // Bottom Left
     glEnd();
 
 
 
     // 4th Quadrant: Flag of Denmark
-
     // Main Rectangle (Red Background)
     glBegin(GL_POLYGON);
         glColor3f(1.0f, 0.0f, 0.0f); // Red Color

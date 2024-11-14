@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1731519370 source:d:\university\semester-7\mid\computer graphics\lab\lab performance\flag\main.cpp
+1731566528 source:d:\university\semester-7\mid\computer graphics\lab\lab performance\flag\main.cpp
 	<windows.h>
 	<GL/glut.h>
 
