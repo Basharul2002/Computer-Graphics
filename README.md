@@ -1,6 +1,7 @@
+
 # Computer Graphics Projects
 
-This repository contains a collection of Computer Graphics projects developed to explore and implement graphical rendering techniques using OpenGL. Each project showcases different aspects of computer graphics, including shapes visualization and flag rendering.
+This repository contains a collection of Computer Graphics projects developed to explore and implement graphical rendering techniques using OpenGL. Each project showcases different aspects of computer graphics, including shapes visualization, star rendering, and flag rendering.
 
 ---
 
@@ -20,7 +21,23 @@ This repository contains a collection of Computer Graphics projects developed to
 
 ---
 
-### 2. **Flag Rendering**
+### 2. **OpenGL Star Rendering**
+- **Description**:  
+  This project visualizes stars in two distinct styles using OpenGL:
+  1. An outlined star on the left side of the window.
+  2. A filled star on the right side of the window.
+- **Features**:
+  - **Outline Star**: Rendered using a red line loop.
+  - **Filled Star**: Rendered with a red triangle fan.
+  - **Axis Visualization**: A vertical white axis separates the two stars for orientation.
+- **Skills Demonstrated**:
+  - Polygon and triangle rendering.
+  - Use of OpenGL primitives (GL_LINE_LOOP and GL_TRIANGLE_FAN).
+  - Window setup and axis drawing.
+
+---
+
+### 3. **Flag Rendering**
 - **Description**:  
   This project renders the national flags of different countries in specific quadrants of a graphical window. The implementation uses OpenGL primitives such as polygons and lines to create accurate flag representations.
 - **Features**:
@@ -67,19 +84,29 @@ To run these projects, follow the steps below:
 📂 Computer Graphics Projects
 ├── 📁 Graphical Shapes Visualization
 │   ├── 📁 bin\Debug
-|   |   |── Lab 2.exe
+│   │   ├── Lab 2.exe
 │   ├── 📁 obj\Debug
-|   |   |── main.o
+│   │   ├── main.o
 │   ├── Lab 2.cbp
 │   ├── Lab 2.depend
 │   ├── Lab 2.layout
 │   ├── main.cpp
 │   ├── README.md
+├── 📁 OpenGL Star Rendering
+│   ├── 📁 bin\Debug
+│   │   ├── Star.exe
+│   ├── 📁 obj\Debug
+│   │   ├── main.o
+│   ├── Star.cbp
+│   ├── Star.depend
+│   ├── Star.layout
+│   ├── main.cpp
+│   ├── README.md
 ├── 📁 Flag Rendering
 │   ├── 📁 bin\Debug
-|   |   |── Flag.exe
+│   │   ├── Flag.exe
 │   ├── 📁 obj\Debug
-|   |   |── main.o
+│   │   ├── main.o
 │   ├── Flag.cbp
 │   ├── Flag.depend
 │   ├── Flag.layout
@@ -87,6 +114,7 @@ To run these projects, follow the steps below:
 │   ├── README.md
 ├── 📁 Assets
 │   ├── 1_GraphicalShapesVisualization.png
+│   ├── 2_OpenGLStar.png
 │   ├── 3_Flag.png
 └── README.md
 ```
@@ -98,8 +126,12 @@ To run these projects, follow the steps below:
 ### **1. Graphical Shapes Visualization**
 ![Graphical Shapes Visualization Output](/Assets/1_GraphicalShapesVisualization.png)
 
-### **2. Flag Rendering**
-![Flag Rendering Output](/Assets/3_Flag.png)
+### **2. OpenGL Star Rendering**
+![OpenGL Star Rendering Output](/Assets/2_Star.png)  
+*Left: Outline star | Right: Filled star.*
+
+### **3. Flag Rendering**
+![Flag Rendering Output](/Assets/3_Flag.png)  
 *Flags of Sudan, Somalia, Tonga, and Denmark rendered in different quadrants.*
 
 ---
@@ -112,4 +144,4 @@ To run these projects, follow the steps below:
 ---
 
 ## License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+This project is licensed under the MIT License. See the [LICENSE](/LICENSE) file for more details.
