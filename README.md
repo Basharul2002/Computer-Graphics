@@ -1,3 +1,6 @@
+Here's the updated markdown with the inclusion of the new project:
+
+---
 
 # Computer Graphics Projects
 
@@ -55,6 +58,22 @@ This repository contains a collection of Computer Graphics projects developed to
 
 ---
 
+### 4. **Additional Flag Rendering**
+- **Description**:  
+  This project renders additional flags (Greece and Sweden) using OpenGL. It incorporates specific graphical details like rectangles, color patterns, and a cross for each flag, ensuring an accurate representation.
+- **Features**:
+  - **Flags Rendered**:
+    1. Greece
+    2. Sweden
+  - **Detailed Design**: Includes crossbars, stripes, and accurate color schemes.
+  - **Axis Visualization**: A vertical white axis separates the left and right sides for orientation.
+- **Skills Demonstrated**:
+  - Advanced polygon-based rendering.
+  - Multi-element design (cross, stripes).
+  - OpenGL context management for accurate drawing.
+  
+---
+
 ## How to Run
 To run these projects, follow the steps below:
 
@@ -84,12 +103,12 @@ To run these projects, follow the steps below:
 📂 Computer Graphics Projects
 ├── 📁 Graphical Shapes Visualization
 │   ├── 📁 bin\Debug
-│   │   ├── Lab 2.exe
+│   │   ├── Graphical Shapes Visualization.exe
 │   ├── 📁 obj\Debug
 │   │   ├── main.o
-│   ├── Lab 2.cbp
-│   ├── Lab 2.depend
-│   ├── Lab 2.layout
+│   ├── Graphical Shapes Visualization.cbp
+│   ├── Graphical Shapes Visualization.depend
+│   ├── Graphical Shapes Visualization.layout
 │   ├── main.cpp
 │   ├── README.md
 ├── 📁 OpenGL Star Rendering
@@ -111,11 +130,13 @@ To run these projects, follow the steps below:
 │   ├── Flag.depend
 │   ├── Flag.layout
 │   ├── main.cpp
+│   ├── Additional_Flags.cpp
 │   ├── README.md
 ├── 📁 Assets
 │   ├── 1_GraphicalShapesVisualization.png
 │   ├── 2_OpenGLStar.png
 │   ├── 3_Flag.png
+│   ├── 4_Flag.png
 └── README.md
 ```
 
@@ -133,6 +154,10 @@ To run these projects, follow the steps below:
 ### **3. Flag Rendering**
 ![Flag Rendering Output](/Assets/3_Flag.png)  
 *Flags of Sudan, Somalia, Tonga, and Denmark rendered in different quadrants.*
+
+### **4. Additional Flag Rendering**
+![Additional Flag Rendering Output](/Assets/4_Flag.png)  
+*Flags of Greece and Sweden rendered on the left and right, respectively.*
 
 ---
 
