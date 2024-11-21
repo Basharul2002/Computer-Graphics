@@ -1,7 +1,3 @@
-Here's the updated markdown with the inclusion of the new project:
-
----
-
 # Computer Graphics Projects
 
 This repository contains a collection of Computer Graphics projects developed to explore and implement graphical rendering techniques using OpenGL. Each project showcases different aspects of computer graphics, including shapes visualization, star rendering, and flag rendering.
